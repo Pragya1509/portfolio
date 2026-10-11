@@ -11,7 +11,7 @@ const SITE = {
   linkedin: "https://www.linkedin.com/in/pragya-sharma15/",
   canva: "https://canva.link/aba564gzi4jha97",
   resume: "resume.pdf",      // replace the resume.pdf file to update
-  photo: "images/profile.jpg"
+  photo: "profile.jpg"
 };
 
 /* ---------- PROJECTS ----------
