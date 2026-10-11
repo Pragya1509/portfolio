@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pragya Sharma | AI Engineer</title>
+  <meta name="description" content="Portfolio of Pragya Sharma, final-year B.Tech CSE (AI) student building machine learning, computer vision and LLM projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home">Pragya Sharma</a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#design">Design</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1>Pragya Sharma</h1>
+          <p class="lead">Aspiring AI engineer building computer vision, LLM and full-stack projects, and learning to turn them into real products.</p>
+          <p class="status"><span class="dot"></span>Final-year B.Tech CSE (AI), open to AI engineer roles and internships</p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-ghost" data-link="resume" href="resume.pdf" download>Download resume</a>
+          </div>
+          <p class="quick-links">
+            <a data-link="github" target="_blank" rel="noopener">GitHub</a>
+            <a data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+            <a data-link="email">Email</a>
+          </p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-wrap">
+            <div class="photo-bg"></div>
+            <img class="photo" data-photo src="images/profile.jpg" alt="Pragya Sharma">
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap stats">
+        <div><strong>8.0+</strong><span>CGPA</span></div>
+        <div><strong>4</strong><span>Projects built</span></div>
+        <div><strong>6</strong><span>Certifications</span></div>
+        <div><strong>2027</strong><span>Graduating</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <h2>About</h2>
+        <div class="about-grid">
+          <div>
+            <p class="body-lg">I am a final-year B.Tech student in Computer Science (Artificial Intelligence) at Banasthali Vidyapith, with a CGPA of 8.0+. I build machine learning, computer vision and LLM-based projects, from the model to the web app around it.</p>
+            <p class="body-lg">I am also learning product management, so I can build AI products that solve real problems for real users.</p>
+          </div>
+          <div class="edu">
+            <h3>Education</h3>
+            <div class="edu-item">
+              <strong>B.Tech, Computer Science (AI)</strong>
+              <span>Banasthali Vidyapith, Newai, Rajasthan</span>
+              <span>2023 to 2027, CGPA 8.0+</span>
+            </div>
+            <div class="edu-item">
+              <strong>Class XII (CBSE), 2023</strong>
+              <span>Sophia Girls Sr. Sec. School, Kota</span>
+            </div>
+            <div class="edu-item">
+              <strong>Class X (CBSE), 2021</strong>
+              <span>Sophia Girls Sr. Sec. School, Kota</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section alt" id="experience">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <div class="timeline" id="experienceList"></div>
+
+        <div class="two-col">
+          <div>
+            <h3>Certifications</h3>
+            <ul class="plain-list" id="certList"></ul>
+          </div>
+          <div>
+            <h3>Activities</h3>
+            <ul class="plain-list" id="activityList"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESIGN -->
+    <section class="section" id="design">
+      <div class="wrap">
+        <h2>Design</h2>
+        <p class="body-lg narrow">I design posters and creatives for college fests and events. All of them are on my Canva.</p>
+        <div class="poster-grid" id="posterGrid"></div>
+        <p><a class="btn btn-primary" id="canvaBtn" target="_blank" rel="noopener" hidden>See all posters on Canva</a></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="wrap contact">
+        <h2>Contact</h2>
+        <p class="body-lg narrow">Email is the fastest way to reach me. I am happy to talk about internships, placements and projects.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" data-link="email">Send an email</a>
+          <a class="btn btn-ghost" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" data-link="github" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><span id="year"></span> Pragya Sharma</div>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox">
+    <form method="dialog"><button class="close" aria-label="Close image">Close</button></form>
+    <img id="lightboxImg" alt="">
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
